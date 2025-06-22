@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    //Declaração de variavel
+     real ganhador1, ganhador2, ganhador3
+
+     //Declaração de constante
+     const inteiro valortotal = 780.000
+
+    //Entrada de Dados
+
+    //processamento
+     ganhador1 = valortotal * 0.46
+     ganhador2 = valortotal * 0.32
+     ganhador3 = valortotal * 0.22
+
+     //saida dos dados
+     escreva("O premio para o primeiro ganhador sera ", ganhador1 ,"00 O segundo sera ", ganhador2 , "00 E o terceiro ", ganhador3, "00")
+  }
+}
